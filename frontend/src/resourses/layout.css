@@ -1,0 +1,84 @@
+.layout-parent {
+  width: 100%;
+  overflow-x: hidden !important;
+}
+
+.header {
+  box-shadow: 0 0 2px 0 #ccc;
+  width: 100%;
+  padding: 20px;
+}
+
+.content {
+  width: 100%;
+}
+
+.sidebar {
+  background-color: #6B6AB1;
+  /* display: flex;
+  justify-content: start;
+  padding: 0 20px;
+  flex-direction: column; */
+}
+
+
+.logo {
+  color: white;
+}
+
+.role {
+  color: white;
+  font-size: 16px;
+}
+
+.menu {
+  margin-top: 10vh;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 5px 15px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.2s;
+  gap: 15px;
+  color: white;
+}
+
+.active-menu-item {
+  border: 1px solid #6B6AB1;
+}
+
+.menu-item i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.menu-item span {
+  font-size: 18px;
+}
+
+.menu-item:hover {
+  border: 1px solid #6B6AB1;
+  background-color: #FFFFFF;
+  color: #6B6AB1;
+}
+
+.spinner-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.507);
+  z-index: 10000;
+}
+
+.ant-picker-calendar.ant-picker-calendar-full .ant-picker-calendar-date-content {
+  height: 4vw !important;
+}
